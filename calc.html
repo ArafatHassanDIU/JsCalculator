@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arafat's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form name="calculator">
+        <input type="textfield" name="ans" value="" style="height:80px; width:345px; background-color: #DDDCA0;"><br>
+        <p>ARAFAT<sup>®</sup></p>
+        <input type="button" value="7" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='7'">
+        <input type="button" value="8" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='8'">
+        <input type="button" value="9" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='9'">
+        <input type="button" value="÷" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='/'">
+        <br>
+        <input type="button" value="4" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='4'">
+        <input type="button" value="5" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='5'">
+        <input type="button" value="6" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='6'">
+        <input type="button" value="×" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='*'">
+        <br>
+        <input type="button" value="1" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='1'">
+        <input type="button" value="2" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='2'">
+        <input type="button" value="3" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='3'">
+        <input type="button" value="-" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='-'">
+        <br>
+        <input type="button" value="0" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='0'">
+        <input type="button" value="." style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='.'">
+        <input type="button" value="C" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value=''">
+        <input type="button" value="+" style="height: 70px; width: 75px;" onclick="document.calculator.ans.value+='+'">
+        <br>
+        <input type="button" value="Equal(=)" style="height: 45px; width: 330px;" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+        </form>
+    </div>
+    
+    <div class="cortesy">
+        <p> CSE417 - WEB ENGINEERING<br>
+        <br>
+        <u>Developed by</u>: <b>Md. Arafat Hassan.</b><br>
+        <u>Submitted to</u>: <b>Mr. Mushfiqur Rahman</b>.
+        </p>
+    </div>
+    
+</body>
+</html>
